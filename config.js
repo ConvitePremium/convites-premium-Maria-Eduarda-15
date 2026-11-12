@@ -62,7 +62,7 @@ window.CONFIG = {
   pix: {
     ativo: true,
     chave: "16544314609",
-    posicao: {"left":16.8,"top":64.0,"width":66.0,"height":8.2}
+    posicao: {"left":25.796808231829075,"top":78.84464173759852,"width":48.21086885982429,"height":3.366862054667025}
   },
 
   // ----- TEXTOS DOS BOTÕES -----------------------------------------------
