@@ -60,8 +60,8 @@ window.CONFIG = {
   // chave: é exatamente o texto que será copiado quando o convidado clicar.
   // posicao: ajuste pelo editor visual (?editor=1), escolhendo “PIX (copiar chave)”.
   pix: {
-    ativo: false,
-    chave: "000",
+    ativo: true,
+    chave: "16544314609",
     posicao: {"left":16.8,"top":64.0,"width":66.0,"height":8.2}
   },
 
@@ -89,10 +89,11 @@ window.CONFIG = {
   // mostrarTexto: true mostra “Voltar”; false deixa apenas a área clicável.
   // A posição pode ser alterada no editor ?editor=1.
   botoesVoltar: {
-    presentes: { mostrarTexto:false, posicao: {"left":21.13290734824281,"top":85.90149593197003,"width":57.65813760483227,"height":5.613585888236659} },
+    presentes: { mostrarTexto:false, posicao: {"left":22.56421101238019,"top":87.8577727418507,"width":54.1821055061901,"height":5.153284945940604} },
     dresscode: { mostrarTexto:false, posicao: {"left":24.147299945087855,"top":88.26639619629475,"width":51.69330633486422,"height":5.424627114446271} },
     manual: { mostrarTexto:false, posicao: {"left":22.920434804313096,"top":87.92117487932784,"width":54.146958616214064,"height":5.424628211885052} }
   },
+
 
   // ----- POSIÇÃO DOS BOTÕES NA TELA PRINCIPAL ----------------------------
   // Valores em PORCENTAGEM da imagem (0 a 100). Para evitar mexer à mão,
@@ -106,7 +107,7 @@ window.CONFIG = {
         dress: { left:25.96804487819489, top:72.65313144939105, width:17.522364217252395, height:12.210796686367793 },
         manual: { left:55.82804885870624, top:72.42298536799815, width:18.34024311102236, height:12.210801076122912 }
   },
-
+   
   // ----- CONTAGEM REGRESSIVA ---------------------------------------------
   // Formato da data: ANO-MÊS-DIAT HORA:MINUTO:SEGUNDO (sem espaço antes do T).
   // Exemplo: "2026-10-03T16:00:00"
